@@ -68,7 +68,7 @@ h2{
     font-weight:bold;
 }
 
-/* BUTTON STYLE */
+/* BUTTON */
 button{
     padding:12px 18px;
     background:#2d6cdf;
@@ -89,7 +89,7 @@ button:hover{
     gap:15px;
 }
 
-/* FILE CARD */
+/* CARD */
 .card{
     background:#0b1117;
     border:1px solid #2b3a4a;
@@ -129,8 +129,7 @@ Status: <span class="alert">ACTIVE INVESTIGATION</span><br>
 Primary Event: Mullet Fest Public Disorder Series<br>
 Jurisdiction: Henpecked Junction Municipal Unit<br><br>
 
-Summary:
-Multiple unresolved incident clusters detected during annual festival operations.
+Multiple unresolved incident clusters detected during festival operations.
 </div>
 
 </div>
@@ -145,61 +144,53 @@ Multiple unresolved incident clusters detected during annual festival operations
 <div class="card">
 <h3>INCIDENT 117-A</h3>
 <div class="small">Hot Dog Chomp Competition</div>
-<p>Event escalation beyond safe conduct limits. Multiple injuries reported from competitive enthusiasm.</p>
+<p>Competition escalation beyond safe operational limits.</p>
 </div>
 
 <div class="card">
 <h3>INCIDENT 117-B</h3>
 <div class="small">Vendor Conflict Zone</div>
-<p>Dispute between food vendors regarding fry station priority access.</p>
+<p>Dispute regarding fry station access priority and territory control.</p>
 </div>
 
 <div class="card">
 <h3>INCIDENT 117-C</h3>
-<div class="small">Portable Facility Vandalism</div>
-<p>Repeated damage to temporary sanitation units during peak festival hours.</p>
+<div class="small">Facility Damage Report</div>
+<p>Repeated vandalism of temporary sanitation infrastructure.</p>
 </div>
 
 <div class="card">
 <h3>INCIDENT 117-D</h3>
-<div class="small">Mullet Competition Irregularities</div>
-<p>Suspected rule bending in “Mullet of the Year” judging process.</p>
+<div class="small">Mullet Judging Irregularities</div>
+<p>Possible rule inconsistencies detected in award classification process.</p>
 </div>
 
 </div>
 
 </div>
 
-<!-- PERSON OF INTEREST LINKS -->
-<div class="panel">
-
-<h2>PERSONS OF INTEREST</h2>
-
-<div class="log">
-
-SKEETER HOLLOWAY — Mechanical access to festival infrastructure<br>
-GRANDMA LOU — Unverified beverage distribution operations<br>
-OFFICER DAN RILEY — Internal documentation inconsistencies flagged<br>
-
-</div>
-
-</div>
-
-<!-- RETURN -->
+<!-- NAVIGATION -->
 <div class="panel">
 
 <h2>NAVIGATION</h2>
 
-<button onclick="goBack()">RETURN TO MAIN SYSTEM</button>
+<button onclick="goHome()">RETURN TO MAIN SYSTEM</button>
+<button onclick="goPOI()">PERSONS OF INTEREST</button>
 
 </div>
 
 </div>
 
 <script>
-function goBack(){
+
+function goHome(){
     window.location.href = "index.html";
 }
+
+function goPOI(){
+    window.location.href = "Persons-of-Interest.html";
+}
+
 </script>
 
 </body>
