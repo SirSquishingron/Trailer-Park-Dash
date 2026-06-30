@@ -68,9 +68,10 @@ h2{
     font-weight:bold;
 }
 
-/* BUTTON */
+/* BUTTONS */
 button{
     padding:12px 18px;
+    margin-right:10px;
     background:#2d6cdf;
     border:none;
     color:white;
@@ -144,26 +145,61 @@ Multiple unresolved incident clusters detected during festival operations.
 <div class="card">
 <h3>INCIDENT 117-A</h3>
 <div class="small">Hot Dog Chomp Competition</div>
-<p>Competition escalation beyond safe operational limits.</p>
+<p>Competition escalated beyond expected safety parameters.</p>
 </div>
 
 <div class="card">
 <h3>INCIDENT 117-B</h3>
 <div class="small">Vendor Conflict Zone</div>
-<p>Dispute regarding fry station access priority and territory control.</p>
+<p>Dispute regarding fryer access allocation and territory claims.</p>
 </div>
 
 <div class="card">
 <h3>INCIDENT 117-C</h3>
 <div class="small">Facility Damage Report</div>
-<p>Repeated vandalism of temporary sanitation infrastructure.</p>
+<p>Repeated vandalism of portable sanitation infrastructure.</p>
 </div>
 
 <div class="card">
 <h3>INCIDENT 117-D</h3>
 <div class="small">Mullet Judging Irregularities</div>
-<p>Possible rule inconsistencies detected in award classification process.</p>
+<p>Potential inconsistencies identified in award selection process.</p>
 </div>
+
+</div>
+
+</div>
+
+<!-- GAME INTRO SECTION (NEW) -->
+<div class="panel">
+
+<h2>INVESTIGATION BRIEFING</h2>
+
+<div class="log">
+
+Congratulations. You’re about to enjoy an intriguing murder mystery. Get ready for tons of fun as you slip into a hot bath
+of mystery, intrigue, and mullet clippings. Let’s hope you catch the future killer that is among you.<br><br>
+
+There are three rounds of the game.<br><br>
+
+<b>Round One:</b><br>
+You’ll watch a video from Anabelle Freebyrd, a town gossip, to get up to speed. Then you’ll participate in a group challenge
+to identify a notorious porch pirate. Clue cards will be distributed. Some clues are shared, others are secret.<br><br>
+
+Speak to everyone at least once. Compare theories. Don’t discard your card.<br><br>
+
+<b>Round Two:</b><br>
+After solving the porch pirate case, new cards will be distributed. A murder will occur. You must interrogate, investigate,
+and share all ROUND TWO clues. The murderer does not know they are guilty.<br><br>
+
+<b>Round Three:</b><br>
+Players accuse the murderer. A solution phase begins. The killer is revealed and confessions unfold in order.<br><br>
+
+<b>DIRECTIVES:</b><br>
+- Do not fabricate or hide required clues<br>
+- Stay in character until the end<br>
+- Play your role freely<br>
+- Have a marvelous time — mandatory<br>
 
 </div>
 
@@ -177,6 +213,9 @@ Multiple unresolved incident clusters detected during festival operations.
 <button onclick="goHome()">RETURN TO MAIN SYSTEM</button>
 <button onclick="goPOI()">PERSONS OF INTEREST</button>
 
+<!-- NEW BUTTON -->
+<button onclick="watchMe()">WATCH ME</button>
+
 </div>
 
 </div>
@@ -189,6 +228,10 @@ function goHome(){
 
 function goPOI(){
     window.location.href = "Persons-of-Interest.html";
+}
+
+function watchMe(){
+    window.location.href = "https://www.youtube.com/watch?v=67w-hl5LBwU";
 }
 
 </script>
